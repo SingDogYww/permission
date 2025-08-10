@@ -1,33 +1,132 @@
-# permission-front
+# 未来科技权限管理平台
 
-This template should help get you started developing with Vue 3 in Vite.
+基于Vue 3 + TypeScript + Vite构建的现代化权限管理系统前端。
 
-## Recommended IDE Setup
+## 🚀 功能特性
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### 🎨 设计风格
+- 深蓝渐变背景，科技感十足
+- 毛玻璃效果和动态粒子背景
+- 响应式设计，支持多种设备
+- 青蓝色主题色彩，视觉效果出众
 
-## Type Support for `.vue` Imports in TS
+### 📋 主要功能模块
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+#### 🏠 工作台 (Dashboard)
+- 实时数据统计卡片
+- 访问趋势图表展示
+- 用户角色分布分析
+- 系统通知和最近操作
+- 快捷操作面板
 
-## Customize configuration
+#### 👥 权限管理
+- **用户管理**: 用户信息管理、状态控制、角色分配
+- **用户组管理**: 用户组织架构、批量权限管理
+- **角色管理**: 角色定义、权限配置、继承关系
+- **接口权限**: API访问控制、权限矩阵管理
+- **数据权限**: 数据范围控制、字段级权限
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+#### ⚙️ 系统管理
+- **系统配置**: 基础参数设置、文件上传配置
+- **日志审计**: 操作日志查看、审计记录导出
 
-## Project Setup
+#### 👤 个人中心
+- 个人信息管理
+- 密码修改
+- 安全设置
 
-```sh
+## 🛠️ 技术栈
+
+- **框架**: Vue 3 + Composition API
+- **语言**: TypeScript
+- **构建工具**: Vite
+- **路由**: Vue Router 4
+- **状态管理**: Pinia
+- **UI组件**: Ant Design Vue
+- **图标**: Font Awesome
+- **特效**: tsParticles (粒子背景)
+
+## 📦 安装和运行
+
+### 环境要求
+- Node.js >= 20.19.0
+
+### 安装依赖
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
+### 开发环境运行
+```bash
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
+### 生产环境构建
+```bash
 npm run build
 ```
+
+### 预览构建结果
+```bash
+npm run preview
+```
+
+## 🎯 项目结构
+
+```
+src/
+├── components/           # 公共组件
+│   └── Layout/          # 布局组件
+├── views/               # 页面组件
+│   ├── Permission/      # 权限管理页面
+│   ├── System/          # 系统管理页面
+│   └── ...             # 其他页面
+├── router/              # 路由配置
+├── stores/              # 状态管理
+└── assets/              # 静态资源
+```
+
+## 🎨 设计特色
+
+### 视觉效果
+- 深蓝渐变背景 (#0f2027 → #203a43 → #2c5364)
+- 青蓝色强调色 (#00eeff)
+- 毛玻璃效果 (backdrop-filter: blur)
+- 动态粒子背景动画
+- 流畅的过渡动画效果
+
+### 交互设计
+- 响应式布局适配
+- 悬停态反馈
+- 平滑过渡动画
+- 直观的操作反馈
+
+## 🔐 登录说明
+
+当前版本为演示版本，登录页面支持三种登录方式：
+- 用户名/密码登录
+- 手机验证码登录  
+- 邮箱登录
+
+任意填写信息后点击登录即可进入管理平台。
+
+## 📱 响应式支持
+
+- 桌面端: >= 1200px
+- 平板端: 768px - 1199px
+- 移动端: < 768px
+
+## 🚧 开发状态
+
+- ✅ 基础布局和导航
+- ✅ 登录页面
+- ✅ Dashboard工作台
+- ✅ 用户管理页面
+- 🚧 其他权限管理页面 (开发中)
+- 🚧 系统管理页面 (开发中)
+- 🚧 个人中心页面 (开发中)
+
+## 📄 License
+
+MIT License
+

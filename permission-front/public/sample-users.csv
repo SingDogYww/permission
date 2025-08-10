@@ -1,0 +1,11 @@
+用户名,邮箱,手机号,角色,状态,用户组,权限,备注
+张三,zhangsan@example.com,13800138001,admin,active,admin,,管理员用户
+李四,lisi@example.com,13800138002,user,active,operator,,操作员用户
+王五,wangwu@example.com,13800138003,user,inactive,viewer,,查看员用户
+赵六,zhaoliu@example.com,13800138004,user,active,operator,,正常用户
+钱七,qianqi@invalid-email,13800138005,user,active,viewer,,邮箱格式错误
+孙八,sunba@example.com,138001380,user,active,operator,,手机号格式错误
+周九,zhoujiu@example.com,13800138007,invalid_role,active,viewer,,角色不存在
+吴十,wushi@example.com,13800138008,user,active,invalid_group,,用户组不存在
+郑十一,,13800138009,user,active,viewer,,缺少邮箱
+王十二,wangshi@example.com,,user,active,viewer,,缺少手机号 

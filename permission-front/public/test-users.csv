@@ -1,0 +1,6 @@
+用户名,邮箱,手机号,角色,状态,用户组,权限,备注
+张三,zhangsan@example.com,13800138001,admin,active,管理员组,用户管理;系统配置,系统管理员
+李四,lisi@example.com,13800138002,user,active,普通用户组,,一般用户
+王五,wangwu@invalid-email,13800138003,user,active,普通用户组,,邮箱格式错误示例
+赵六,zhaoliu@example.com,13812345678,editor,active,编辑用户组,内容管理,内容编辑员
+钱七,qianqi@example.com,13987654321,user,inactive,普通用户组,,已停用用户 
