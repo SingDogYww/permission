@@ -57,6 +57,11 @@ const router = createRouter({
           component: () => import('../views/Permission/UserGroupView.vue'),
         },
         {
+          path: 'user-group/:id',
+          name: 'permission-user-group-detail',
+          component: () => import('../views/Permission/UserGroupDetailView.vue'),
+        },
+        {
           path: 'role',
           name: 'permission-role',
           component: () => import('../views/Permission/RoleView.vue'),
